@@ -1,4 +1,6 @@
 <?php
+namespace Webt\MedtCore1Review;
+require('vendor/autoload.php');
 
 /* SMUE MEDT CORE 1
  * AUFGABE 1
@@ -9,9 +11,12 @@
 
 // AUFGABE 2
 // Erstellen Sie eine Instanz Ihrer ConsoleLogger Klasse und loggen Sie den Text "SUCCESS"
+$myLogger1 = new ConsoleLogger('Friendly Name');
+echo $myLogger1->log("SUCCESS");
 
 // AUFGABE 3
 // Führen Sie das File index.php über die Command Line aus und zeigen Sie das Ergebnis vor
+
 
 // AUFGABE 4
 // Legen Sie ein Repository auf einem VC Server Ihrer Wahl an (zB GitHub, GitLab, etc.) und pushen Sie das Ergebnis
